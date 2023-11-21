@@ -1,9 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: lato;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .title-container img {
-    width: 250px;
-    height: auto;
+    width: 350px;
+    height: 250px;
+    border-radius: 5px;
 }
 
 .foods img {
     width: 150px;
     height: auto;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 150px 100px 150px;
+    gap: 70px;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    gap: 20px;
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
+.logo {
+    margin-right: auto;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:visited {
+    color: #E5E7EB;
+}
+
+.title h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+a,
+.title p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.title button {
+    width: 100px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    height: 30px;
+    border-width: 0;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 16px;
+    
 }
