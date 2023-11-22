@@ -121,3 +121,22 @@ a,
 .foods p {
     text-align: center;
 }
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 100px 150px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.quote-container .quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-container .credit {
+    align-self: flex-end;
+}
